@@ -1,0 +1,638 @@
+body{
+	margin:0;
+	padding:0;	
+}
+/*Estilização do menu*/
+#nav{
+	background: #ADD8E6;
+	float: left;		
+	width:100%;
+	height:50px;
+	margin-bottom: 40px;
+}	
+#nav ul{	
+	font: 16px arial;
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+
+#nav ul li{
+	float:left;
+	position:relative;	
+	display:block;
+}
+
+#nav ul li a{
+	color:#555;	
+	text-decoration:none;
+	padding: 15px 20px;
+	display:block;
+}
+
+#nav li ul{
+	display:none;
+}
+
+#nav ul li a:hover{
+	background:#066;
+	color:#fff;
+}
+
+#nav li:hover ul{
+	display:block;
+	position:relative;
+}
+
+#nav li:hover li{
+	float:none;
+	font-size:16px;
+}
+
+#nav li:hover a{
+	background:#333;
+	color:#fff;
+}
+/*Fim da estilização do menu*/
+
+/* formulário de login */
+#frmLogin{
+		margin-top: 180px;
+		width:290px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid gray;
+		padding:20px;
+		background-color: #989898;
+	}
+
+#frmLogin label{
+		display:block;
+		margin-bottom:20px;	
+	}	
+
+#frmLogin label input:hover{
+		border:1px dashed blue;
+	}
+
+
+ #frmLogin label input{
+		width:200px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px;	
+	}
+   p{
+	   margin-left: 12px;	
+	}
+#campoUsuario{
+		margin-left: 12px;		
+		border:1px dashed blue
+	}
+	
+#campoSenhaLogin{
+		margin-left: 10px;		
+		border:1px dashed blue
+	}
+	
+#frmLogin p input{
+	width:120px;
+	border:1px solid gray;
+	border-radius:10px;
+	padding:7px;
+	}
+	
+#botao_login{
+		border-radius:10px;
+		border:1px solid gray;
+		color:white;
+		background:blue;
+		padding:10px;
+		width:90px;
+		margin-left:28px;
+		cursor:pointer;	
+	}
+
+#botao_login:hover{
+		background:black;
+}
+#link{
+	margin-left:30px;		
+}
+
+/* Fim do formulário de login
+
+
+/* Formulário cadastro de usuário */
+
+	#frmCadUsuario {
+		margin-top: 130px;
+		width:400px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid gray;
+		padding:20px;
+		background-color:#989898;
+	}
+
+	#frmCadUsuario label {
+		display:block;
+		margin-bottom:20px;			
+	}	
+
+	#frmCadUsuario label input:hover {
+		border:1px dashed blue;
+	}
+	#frmCadUsuario label input{
+		width:200px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px;			
+	}
+	
+	p{
+	   margin-left: 12px;	
+	}
+	
+	#campoNome{
+		margin-left: 35px;
+		border:1px dashed blue;			
+	}
+	#campoSobrenome{
+		margin-left: 04px;
+		border: 1px dashed blue;
+	}
+	
+	#campoUsuario{	
+	    margin-left:26px;	
+		border:1px dashed blue;
+	}
+		
+	#campoSenhaUsuario{
+		margin-left: 34px;	
+		border:1px dashed blue;
+	}
+	#campoConfSenhaUsuario{
+		margin-left: 1px;	
+		border:1px dashed blue
+	}	
+		
+	#frmCadUsuario p input {
+	  width:120px;
+	  border:1px solid gray;
+	  border-radius:10px;
+	  padding:7px;
+
+	}
+	#botao_cadastrar{
+		margin-left: 70px;
+		border-radius:10px;
+		border:1px solid gray;
+		color:white;
+		background:blue;
+		padding:10px;
+		width: 80px;
+		cursor:pointer;
+	}
+	#botao_cadastrar:hover{
+         background:black;
+     }
+	
+	#link{
+		margin-left: 30px;
+		border-radius:10px;
+		border:1px solid gray;
+		color:white;
+		background:blue;
+		padding:10px;	
+		width:80%;			
+		text-decoration: none;
+	}
+
+	#link:hover{
+		background:black;
+	}
+
+/* Fim do formulário cadastro usuário */
+
+/*Formulário de cadastro de aluno */
+
+   #frmCadProdutos {
+		margin-top: 90px;
+		width:400px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid gray;
+		padding:20px;
+		background-color:#989898;
+	}
+
+   #frmCadProdutos label {
+		display:block;
+		margin-bottom:20px;			
+	}	
+
+	#frmCadProdutos label input:hover {
+		border:1px dashed blue;
+	}
+
+	#frmCadProdutos label input{
+		width:200px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px;			
+	}
+
+	#frmCadProdutos select{
+		width:220px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px; 
+	}
+	
+	#campoCodigo{
+		margin-left: 16px;
+		border: 1px dashed blue;
+	}
+	
+	#campoDescricao{
+		margin-left: 16px;
+		border: 1px dashed blue;
+	}
+	
+	#campoLinha{	
+	    margin-left:30px;	
+		border:1px dashed blue
+	}
+
+	#campoCor{	
+	    margin-left:30px;	
+		border:1px dashed blue
+	}
+	#campoMaterial{
+		margin-left:30px;	
+		border:1px dashed blue		
+	}
+		
+	#campoAplicacao{
+		margin-left: 08px;	
+		border:1px dashed blue
+	}
+	#campoDetalhes{
+		margin-left: 29px;	
+		border:1px dashed blue
+	}	
+	#botao_Limpar{
+		border-radius:10px;
+		border:1px solid gray;
+		color:white;
+		background:blue;
+		padding:10px;
+		width: 100px;
+		cursor:pointer;
+	}	
+
+	#botao_Limpar:hover {
+		background:black;
+	}
+
+	/*#botao_login:hover {
+		background:black;
+	}*/	
+	
+/*Fim do formulário de cadastro de aluno*/	
+
+/*Formulário de cadastro de curso*/
+
+#frmCadCurso {
+		margin-top: 130px;
+		width:400px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid gray;
+		padding:20px;
+		background-color:#989898;
+	}
+
+   #frmCadCurso label {
+		display:block;
+		margin-bottom:20px;			
+	}	
+
+	#frmCadCurso label input:hover {
+		border:1px dashed blue;
+	}
+
+	#frmCadCurso label input{
+		width:200px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px;			
+	}
+
+	#campoDscurso{
+		margin-left:55px;	
+		border:1px dashed blue;		
+	}
+		
+	#campoVlCargaHor{
+		margin-left: 06px;	
+		border:1px dashed blue;
+	}
+
+	#campoQtVagas{
+		margin-left:40px;
+		border:1px dashed blue;
+	}
+
+/*Fim do formulário de cadastro de curso*/
+
+/*Formulário de inscrição curso*/
+	#frmInsCurso {
+		margin-top: 130px;
+		width:400px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid gray;
+		padding:20px;
+		background-color:#989898;
+	}
+
+   	#frmInsCurso label{
+		display:block;
+		margin-bottom:20px;			
+	}	
+
+	#frmInsCurso label input:hover {
+		border:1px dashed blue;
+	}
+
+	#frmInsCurso label input{
+		width:200px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px;			
+	}
+
+	#frmInsCurso select{
+		width:220px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px; 
+	}
+	
+	#cbCurso{
+		margin-left:52px;
+		border: 1px dashed blue;
+		cursor:pointer;
+	}
+
+	#frmInsCurso cbCurso input:hover {
+		border:1px dashed blue;
+	}	
+
+	#cbAluno{
+		margin-left:52px;
+		border: 1px dashed blue;
+		cursor:pointer;
+	}
+	#frmInsCurso cbAluno input:hover {
+		border:1px dashed blue;
+	}
+
+/*Formulário de cadastro de título */
+
+/* formulário de Título*/
+
+#frmCadTitulo{
+		margin-top: 180px;
+		width:290px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid gray;
+		padding:20px;
+		background-color: #989898;
+	}
+
+#frmCadTitulo label{
+		display:block;
+		margin-bottom:20px;	
+	}	
+
+#frmCadTitulo label input:hover{
+		border:1px dashed blue;
+	}
+
+
+ #frmCadTitulo label input{
+		width:200px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px;	
+	}
+   p{
+	   margin-left: 12px;	
+	}
+#campoId{
+		margin-left: 29px;		
+		border:1px dashed blue
+	}
+	
+#campoTitulo{
+		margin-left: 10px;		
+		border:1px dashed blue
+	}
+	
+#frmCadTitulo p input{
+	width:120px;
+	border:1px solid gray;
+	border-radius:10px;
+	padding:7px;
+	}
+
+/*Fim do formulário de cadastro de título
+
+/*Início do formulário de cadastro de professor
+/*Formulário de cadastro de professor */
+
+   #frmCadProfessor {
+		margin-top: 40px;
+		width:400px;
+		margin-left:auto;
+		margin-right:auto;
+		border:1px solid gray;
+		padding:20px;
+		background-color:#989898;
+	}
+
+   #frmCadProfessor label {
+		display:block;
+		margin-bottom:20px;			
+	}	
+
+	#frmCadProfessor label input:hover {
+		border:1px dashed blue;
+	}
+
+	#frmCadProfessor label input{
+		width:200px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px;			
+	}
+
+	#frmCadProfessor select{
+		width:220px;
+		border:1px solid gray;
+		border-radius:10px;
+		padding:7px; 
+	}
+	#cbEstado{
+		margin-left:52px;
+		border: 1px dashed blue;
+		cursor:pointer;
+	}
+    #cbTitulo{
+		margin-left:34px;
+		border: 1px dashed blue;
+		cursor:pointer;
+	}
+	#frmCadProfessor cbEstado input:hover {
+		border:1px dashed blue;
+	}
+	
+	#campoEndereco{
+		margin-left: 16px;
+		border: 1px dashed blue;
+	}
+	
+	#campoCidade{	
+	    margin-left:30px;	
+		border:1px dashed blue
+	}
+
+	#campoUf{	
+	    margin-left:30px;	
+		border:1px dashed blue
+	}
+	#campoEmail{
+		margin-left:30px;	
+		border:1px dashed blue		
+	}
+		
+	#campoCelular{
+		margin-left: 08px;	
+		border:1px dashed blue
+	}
+	#campoCpf{
+		margin-left: 52px;	
+		border:1px dashed blue
+	}	
+	#botao_Limpar{
+		border-radius:10px;
+		border:1px solid gray;
+		color:white;
+		background:blue;
+		padding:10px;
+		width: 100px;
+		cursor:pointer;
+	}	
+
+	#botao_Limpar:hover {
+		background:black;
+	}
+
+	/*#botao_login:hover {
+		background:black;
+	}*/	
+	
+
+/*Fim do formulário de cadastro de professor
+ 
+ /*Roda pé*/
+ 
+ footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
+
+/*Fim do roda pé*/
+
+/*Estilização de tabela */
+
+
+#linkAltera{
+		margin-left: 30px;
+		border-radius:10px;		
+		color:white;
+		background:#228B22;
+		padding:7px;	
+		width:80%;			
+		text-decoration: none;
+	}
+
+	#linkAltera:hover{
+		background:black;
+	}
+
+#linkExclui{
+        margin-left: 30px;
+		border-radius:10px;		
+		color:white;
+		background:#FF0000;
+		padding:7px;	
+		width:80%;			
+		text-decoration: none;
+	}
+
+	#linkExclui:hover{
+		background:black;
+	}
+.botoes{
+	margin-top:20px;
+	margin-left: 215px;
+}
+
+/*Página inicial*/
+	
+#produtos{
+	
+}
+
+.produto1{
+
+  float: left;
+	margin-left:90px;
+	width: 300px;
+	margin-top:3px;
+	padding: 150px;
+	border-width: 10px;
+	border: solid #cce0ff 10px;
+}
+
+.produto2{
+	float:relative;
+	margin-left:600px;
+	width: 300px;
+	margin-top:85px;
+	padding: 150px;
+	border-width: 10px;
+	border: solid #cce0ff 10px;
+}
+
+.produto3{
+ float: right;
+	margin-left:210px;
+	width: 300px;
+	margin-top:-360px;
+	padding: 150px;
+	border-width: 10px;
+	border: solid #cce0ff 10px;
+}

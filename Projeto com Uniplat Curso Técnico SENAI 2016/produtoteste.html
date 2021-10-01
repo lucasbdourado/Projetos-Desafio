@@ -1,0 +1,94 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>UniPlast</title>
+	   
+		<link href="assets/css/bootstrap.css" rel="stylesheet">
+	  
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+	   
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	  
+		<link href="assets/ItemSlider/css/main-style.css" rel="stylesheet" />
+		
+		<link href="assets/css/style.css" rel="stylesheet" />
+			  
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	</head>
+	<body> <font face="Century Gothic">
+		<nav class="navbar navbar-default" role="navigation">
+		 <div class="container-fluid">
+           
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				<a class="navbar-brand" href="inicio.html"><strong>UNI</strong>Plast </a>
+				</div>
+
+          
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" placeholder="O que você deseja..." class="form-control">
+                    </div>
+                    &nbsp; 
+                    <button type="submit" class="btn btn-primary" id="botaobusca">Buscar</button>
+                </form>
+            </div>
+           
+         </div>
+		</nav>
+	<hr class='colorgraphprd'>
+	<div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="col-item" id="colitem">
+                <div class="photo">
+                    <img src="0416.jpg" class="img-responsive" alt="a" />
+                </div>
+                <div class="info">
+                    <div class="row">
+                        <div class="price col-md-6">
+                            <h5><strong><?php echo $resultado["DS_PRODUTO"];?></strong></h5>
+                            <h5 class="price-text-color">Cód. <?php echo $resultado["CD_PRODUTO"];?></h5>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="separator clear-left">
+                        <p class="btn-add">
+                            <i class="fa fa-scissors"></i><a href="medidas.html" class="hidden-sm">Ver Medidas</a></p>
+                    <div class="clearfix">
+                    </div>
+                </div>
+            </div>
+    </div>
+	<div class='product name'> <font size="3">
+				<h1><?php echo $resultado["DS_PRODUTO"];?></h1>
+				<span><strong>Cód.</strong> <?php echo $resultado["CD_PRODUTO"];?></span>
+				<br>
+				<br>
+				<span><strong>Linhas:</strong> <?php echo $resultado["DS_LINHA"];?></span>
+				<br>
+				<br>
+				<h2>Aplicações do produto</h2> </font>
+				<font size="3"><?php echo $resultado["DS_APLIC_PRODUTO"];?></font>
+				</br></br>
+				<h2>Cores</h2>
+				<font size="3"><?php echo $resultado["DS_COR"];?></font><br /> <br /><br /> <br /> 
+				<hr class='colorgraphprd'>
+				<h3>Material</h3>	
+				<font size="3"><?php echo $resultado["DS_MATERIAL"];?></font><br /> <br />
+				<h3>Detalhes<h3>	
+				<font size="3"><?php echo $resultado["DS_DETALHES"];?></font><br /> <br />
+				</font>
+			</div>
+</body>
+</html>

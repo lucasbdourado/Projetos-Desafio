@@ -1,0 +1,50 @@
+<html lang="pt-br">
+	<head>
+		<title>Cadastro de Produtos</title>
+		<link href="assets/css/cadtubos.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="js/funcoes.js"></script>	
+		<meta charset="utf-8">	
+		
+		<link href="assets/css/bootstrap.css" rel="stylesheet">
+  
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+		
+		<link href="assets/css/style.css" rel="stylesheet" />
+		
+		<link href="assets/css/estilo.css" rel="stylesheet" />
+	</head>
+	<?php  
+   		include "conexao.php";  
+   	?>
+	<body>
+
+<div class="container" id="wrap">
+	  <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form name="frmCadProdutos" id="frmCadProdutos" action="InclusaoProd.php" method="post" accept-charset="utf-8" class="form" role="form">   
+            <legend>Cadastro de Produtos</legend>
+ 
+                <input type="text" name="campoCodigo" id="campoCodigo" value="" class="form-control input-lg" placeholder="Código do Produto"  /> 
+      
+                <input type="text" name="campoDescricao" id="campoDescricao" value="" class="form-control input-lg" placeholder="Descrição do Produto"  />
+				
+                <input type="text" name="campoLinha" id="campoLinha" value="" class="form-control input-lg" placeholder="Linha do Produto"/>
+
+                <input type="text" name="campoCor" id="campoCor" value="" class="form-control input-lg" placeholder="Cores"/>
+                
+                <input type="text" name="campoMaterial" id="campoMaterial" value="" class="form-control input-lg" placeholder="Materiais"/>
+
+                <input type="text" name="campoAplicacao" id="campoAplicacao" value="" class="form-control input-lg" placeholder="Aplicação"  />
+				
+				<textarea type="text" rows="8" name="campoDetalhes" id="campoDetalhes" value="" class="form-control input-lg" placeholder="Detalhes"  /></textarea>
+				
+				
+				
+                    <br />
+                    <button class="btn btn-lg btn-primary btn-block signup-btn" value="Cadastrar" type="submit" id="buttoncad">Cadastrar Produto</button>
+					<button class="btn btn-lg btn-primary btn-block signup-btn" value="Limpar" type="reset" id="buttonlimp">Limpar</button>
+            </form>          
+          </div>
+</div>            
+</div>
+</div>
