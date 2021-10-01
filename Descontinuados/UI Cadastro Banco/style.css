@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    width: 80vw;
+    height: 80vh;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+    color: white;
+    overflow: hidden;
+}
+
+.step-1-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 7rem;
+    padding: 1.5rem 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container .close-menu{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+.btn-confirm{
+    background-color: #04631f;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 40px;
+    border: 0.5px solid #0b250c;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.account-container{
+    height: 80%;
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+
+.right-column{
+    justify-self: end;
+}
+
+.right-column img{
+    height: 70vh;
+    width: 30vw;
+}
+
+@media only screen and (max-width: 830px){
+    .step-1-content{
+        display: block;
+        line-height: 100%;
+    }
+
+    .step-1-content .right-column{
+        display: none;
+    }
+}
+
+
+

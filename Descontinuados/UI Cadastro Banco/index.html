@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUI de Banco</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a class="close-menu">X</a>
+        <div class="step-1-content" id="step-1-content">
+            <div class="account-container">
+                <h2 class="title">Seja Bem-vindo, Lucas!</h2>
+                <p class="description">Seja bem vindo ao Banco N2K, estamos muito felizes em ver você por aqui. Percebemos que você não possui uma conta conosco. Para criá-la é bem fácil basta clicar abaixo no botão "Abrir uma conta", e seguir as instruções, nossas taxas são bem baixas, e você ja ganha um cartão para poder utilizar em suas compras.</p>
+                <button class="btn-confirm" id="next-step">Abrir uma conta</button>
+            </div>
+            <div class="right-column">
+                <img src="assets/card3.svg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var nextStep = document.getElementById("next-step");
+    var login1 = document.getElementById("step-1-content");
+
+    nextStep.onclick = function(){
+        login1.style.display = "none";
+        console.log("Olá!");
+    }
+</script>
+</html>
